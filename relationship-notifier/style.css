@@ -1,0 +1,68 @@
+.deprecated-modal-header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--background-secondary);
+   margin-bottom: 15px;
+}
+
+.deprecated-modal-icon {
+   margin-right: 10px;
+   color: var(--info-warning-foreground);
+}
+
+.deprecated-modal-footer {
+   border: unset !important;
+   box-shadow: unset !important;
+   background-color: unset !important;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 8px;
+}
+
+.deprecated-modal-download {
+   width: 26;
+   height: 26;
+   padding: 5px;
+   color: var(--info-positive-foreground);
+   cursor: pointer;
+}
+
+.deprecated-modal-downloaded {
+   color: var(--info-positive-foreground);
+}
+
+.deprecated-modal-failed {
+   color: var(--info-danger-foreground);
+}
+
+.deprecated-modal-download:hover {
+   background-color: var(--background-modifier-hover);
+   border-radius: 5px;
+}
+
+.deprecated-modal-download:active {
+   transform: translateY(1px);
+}
+
+@keyframes spinner {
+   0% {
+      transform: rotate(0deg);
+   }
+
+   100% {
+      transform: rotate(360deg);
+   }
+}
+
+.deprecated-modal-downloading {
+   overflow: hidden;
+   width: 18px;
+   height: 18px;
+   border: 3px solid white;
+   border-top: 3px solid var(--background-accent);
+   border-radius: 50%;
+   animation: spinner 1.5s linear infinite;
+   margin: 6px 0;
+}

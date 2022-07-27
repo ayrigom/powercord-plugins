@@ -1,0 +1,7 @@
+{
+  "name": "Replace Timestamps - Powercord",
+  "version": "2.0.0",
+  "description": "Replaces plaintext 24 hour timestamps into Discord's timestamps.",
+  "author": "SpoonMcForky",
+  "license": "MIT"
+}

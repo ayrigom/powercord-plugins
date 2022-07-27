@@ -1,0 +1,10 @@
+{
+	"name": "Privacy Tab",
+	"version": "1.2.0",
+	"description": "Hide your stuff, why would you need this? ;)",
+	"author": "ugly-patootie#0611 Original : Hoofers#0001",
+	"license": "MIT",
+	"permissions": [
+		"keypresses"
+	]
+}

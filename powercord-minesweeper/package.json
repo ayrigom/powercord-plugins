@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "discord.js-minesweeper": "^1.1.0"
+  }
+}

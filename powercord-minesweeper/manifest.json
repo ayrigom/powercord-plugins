@@ -1,0 +1,8 @@
+{
+    "name": "powercord-minesweeper",
+    "version": "1.0.0",
+    "description": "Set your status to a random minesweeper",
+    "author": "lightninbolt986#9799",
+    "license": "MIT",
+    "nsfw": false
+}
