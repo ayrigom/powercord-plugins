@@ -1,0 +1,284 @@
+.has-vpc {
+	.content-1LAB8Z {
+		background-color: rgb(30, 30, 30);
+	}
+}
+
+.infile {
+	.content-1LAB8Z {
+		user-select: text;
+	}
+	height: 700px !important;
+	width: 800px !important;
+	.hljs {
+		padding: 0 !important;
+		.powercord-codeblock-table {
+			margin-left: 7px;
+		}
+		.powercord-codeblock-lang {
+			padding: 4px;
+			font-size: 12px;
+		}
+		.powercord-codeblock-copy-btn {
+			position: absolute;
+			height: 20px;
+			opacity: 1;
+			top: 29px;
+			&:hover {
+				background-color: var(--background-primary);
+			}
+		}
+	}
+}
+
+.Gpath {
+	margin: 0px !important;
+	height: 25px;
+	p {
+		position: absolute;
+		padding-left: 10px;
+		left: 0;
+		top: -6px;
+	}
+}
+
+.githubModel {
+	border-radius: 10px;
+	width: 700px;
+	height: 450px;
+	// Header
+	.header-1TKi98 {
+		border-bottom: solid 2px var(--background-secondary);
+		box-shadow: none !important;
+		color: var(--text-normal);
+		padding: 0 0 0 10px;
+		border-radius: 0;
+		overflow: unset;
+		height: 60px;
+		.back-outfile {
+			background-color: rgba(0, 0, 0, 0.1);
+			border: solid 1px rgba(32, 34, 37, 0.5);
+			border-radius: 7px;
+			position: absolute;
+			padding: 6px 10px;
+			right: 317px;
+			&:hover {
+				background-color: var(--background-tertiary);
+				cursor: pointer;
+			}
+		}
+		// Repository Title
+		.repo-name {
+			text-transform: capitalize;
+			font-size: 24px;
+			margin: 0;
+			&:hover {
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		}
+		// Stargazers
+		.star-svg {
+			border-left: solid 1px rgba(255, 255, 255, 0.1);
+			position: relative;
+			margin-left: 8px;
+			padding-left: 8px;
+			display: flex;
+			height: 25px;
+			bottom: 2px;
+			img {
+				fill: var(--text-normal);
+				position: relative;
+				height: 20px;
+				top: 4px;
+			}
+			p {
+				position: relative;
+				font-size: 18px;
+				bottom: 9px;
+				left: 5px;
+				&:hover {
+					text-decoration: underline;
+					cursor: pointer;
+				}
+			}
+		}
+		// Branch Selector
+		.marginBottom20-32qID7 {
+			position: absolute;
+			width: 300px;
+			right: 10px;
+			margin: 0;
+			.css-gvi9bl-control {
+				border-radius: 7px;
+			}
+			.divider-3573oO,
+			.css-o3gndj-placeholder {
+				display: none;
+			}
+			.css-6fzn47-control {
+				border-radius: 7px;
+			}
+			.css-3vaxre-menu {
+				margin-top: 7px !important;
+				border-radius: 7px;
+				::-webkit-scrollbar {
+					display: none;
+				}
+			}
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+	// body
+	.content-1LAB8Z {
+		border-radius: 0;
+		padding: 0;
+		.Gimg {
+			overflow-x: auto;
+		}
+		.Gerror {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			& div {
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+		}
+		.Gfetching {
+			display: grid;
+			grid-template-rows: 2rem;
+			text-align: center;
+			color: var(--text-normal);
+		}
+		.Gpath {
+			display: flex;
+			justify-content: center;
+			color: var(--text-normal);
+			margin-top: 7px;
+			padding-bottom: 7px;
+			border-bottom: solid 2px var(--background-secondary);
+		}
+		// Back button
+		.Gback-button {
+			margin-bottom: 12px;
+			margin-top: -11px;
+			img {
+				padding: 3px 10px 0 10px;
+				position: relative;
+				height: 20px;
+				width: 20px;
+				top: 3px;
+			}
+			a {
+				background-color: var(--background-secondary);
+				color: var(--text-normal);
+				border-radius: 7px;
+				padding: 5px 20px;
+				&:hover {
+					background-color: var(--background-tertiary);
+				}
+			}
+		}
+
+		// Files and folders
+		.Gfile,
+		.Gfolder {
+			border-top: solid 1px var(--background-secondary);
+			padding: 10px 0 0 10px;
+			margin: 10px 0;
+			a {
+				color: var(--text-normal);
+				padding-left: 7px;
+				&:hover {
+					text-decoration: underline;
+					color: var(--text-link);
+				}
+			}
+			img {
+				position: relative;
+				top: 2px;
+			}
+		}
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		.Gin-folder {
+			.Gback-button {
+				margin-bottom: 13px !important;
+				padding-top: 14px;
+			}
+		}
+	}
+	// footer
+	.footer-2gL1pp {
+		border-top: solid 2px var(--background-secondary-alt);
+		border-radius: 0 0 7px 7px;
+		overflow: unset;
+		height: 57px;
+		padding: 0;
+		// Close Button
+		.button-38aScr {
+			background-color: var(--background-tertiary);
+			border-radius: 7px;
+			position: absolute;
+			width: 40%;
+			right: 6px;
+			top: 10px;
+			&:hover {
+				background-color: var(--background-primary);
+			}
+		}
+		// Repository information
+		.repo-info {
+			color: var(--text-normal);
+			position: absolute;
+			display: flex;
+			left: 10px;
+			width: 57.5%;
+		}
+		// Author
+		.owner-profile {
+			position: absolute;
+			display: flex;
+			top: 7px;
+			img {
+				border-radius: 5px;
+				height: 40px;
+				width: 40px;
+			}
+			p {
+				text-transform: capitalize;
+				padding: 11px 0 0 8px;
+				font-size: 18px;
+				margin: 0;
+				&:hover {
+					text-decoration: underline;
+					cursor: pointer;
+				}
+			}
+		}
+		// Forks
+		.fork-svg {
+			padding: 18px 4px 0 0;
+			position: absolute;
+			display: flex;
+			right: 4px;
+			p {
+				padding-left: 4px;
+				font-size: 20px;
+				margin: 0;
+				&:hover {
+					text-decoration: underline;
+					cursor: pointer;
+				}
+			}
+			img {
+				fill: var(--text-normal);
+				height: 20px;
+			}
+		}
+	}
+}

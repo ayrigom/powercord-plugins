@@ -1,0 +1,32 @@
+/* This file is part of WordNotifications, a Powercord plugin that notifies you when someone says specific words
+ * Copyright (C) 2021 Vendicated
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+.venTriggersButton {
+  margin-left: auto;
+  margin-top: -77px;
+  width: 25%;
+}
+
+.venTriggersInput {
+  width: 70%;
+}
+
+.venTriggersSection {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.venTriggersFormatGuide {
+  color: gray;
+  font-size: small;
+}
+
+.venTriggersFormatGuideTitle {
+  color: gray;
+  font-size: medium;
+}

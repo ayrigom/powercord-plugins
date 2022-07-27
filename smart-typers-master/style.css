@@ -1,0 +1,101 @@
+/** General **/
+.smartTypers-popout {
+  filter: blur(1px);
+}
+
+.smartTypers-moreUsers {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.typing-user.clickable {
+  cursor: pointer !important;
+}
+
+.typing-user .gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, var(--smartTypers-primary), var(--smartTypers-secondary));
+}
+
+.typing-user em {
+  font-style: italic;
+}
+
+.typing-user .emoji, .smartTypers-additionalUsersTooltip .emoji {
+  width: 10px;
+  height: 10px;
+  vertical-align: baseline;
+}
+
+.typing-users {
+  margin: 0 5px;
+}
+
+.typing-users :last-child[class|='avatarMasked'] {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+/** Settings **/
+.smartTypers-preview {
+  padding: 8px;
+  background-color: var(--background-secondary);
+  margin-bottom: 40px;
+  border-radius: 5px !important;
+}
+
+.smartTypers-preview .typing-2GQL18 {
+  margin: 0;
+  position: initial !important;
+}
+
+.smartTypers-preview + div, .smartTypers-title {
+  margin-bottom: 20px;
+}
+
+.smartTypers-slider {
+  margin: 20px 25px 0;
+  width: calc(100% - 50px);
+}
+
+.smartTypers-slider [class|='markValue'] {
+  white-space: nowrap;
+}
+
+.smartTypers-beta {
+  display: inline-block;
+  background: #f04747;
+  color: #fff;
+  margin-left: 6px;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 10px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.smartTypers-input {
+  margin-bottom: 5px;
+}
+
+.smartTypers-input:not([class*='disabled']):focus-within,
+.smartTypers-input:not([class*='disabled']):hover {
+  border-color: rgba(114, 137, 218, .3);
+}
+
+.smartTypers-variable {
+  margin-right: 5px;
+}
+
+.smartTypers-keybind {
+  display: inline-flex;
+  margin-right: -2px;
+  margin-bottom: 0;
+  transform: translateY(-1px);
+}
+
+.smartTypers-keybind span {
+  box-shadow: inset 0 -2px 0 #242629 !important;
+  border: 1px solid #000 !important;
+}
